@@ -1,7 +1,22 @@
 .App {
   text-align: center;
+  background-color: rgb(239, 237, 237);
 }
-
+.circle-chart{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+}
+/* .pie-chart{
+  border: 1px solid red;
+  box-sizing: border-box;
+  
+}
+.doughnut{
+  border: 1px solid red;
+  box-sizing: border-box;
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +26,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  
 }
 
 .App-header {
