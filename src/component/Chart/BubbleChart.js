@@ -16,7 +16,7 @@ const BubbleChart = () => {
   const [chartData, setChartData] = useState([]);
 
   useEffect(() => {
-    const url = "https://glacial-ravine-95088.herokuapp.com/data";
+    const url = "https://stark-temple-65149.herokuapp.com/data";
     fetch(url)
       .then((res) => res.json())
       .then((datum) => {
